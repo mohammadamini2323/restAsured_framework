@@ -12,7 +12,7 @@ import utils.ConfigUtils;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class postTest {
+public class PostTest {
     @BeforeEach
     public void setup(){
         Environment currentEnv=Environment.getCurrentEnvironment();
