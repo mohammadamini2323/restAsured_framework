@@ -13,7 +13,7 @@ import utils.RandomDataGenerator;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class UserAndBookstore extends BaseTest {
+public class UserAndBookstoreTests extends BaseTest {
     String Username;
     String Password;
     String token;

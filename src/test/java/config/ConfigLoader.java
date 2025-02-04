@@ -22,7 +22,7 @@ public class ConfigLoader {
         return (getProperty(key)==null ||getProperty(key).equals(" ") );
     }
     public static int getIntProperty(String key){
-        return(checkIfPropertyIsEmptyOrNull(key))?5000: Integer.parseInt(properties.getProperty(key));
+        return(checkIfPropertyIsEmptyOrNull(key))?5000: Integer.parseInt(getProperty(key));
     }
     public static Properties getProperties(){
         return properties;
